@@ -63,7 +63,7 @@ form {
     margin: 2em auto;
 }
 
-form div {
+.input {
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -81,8 +81,9 @@ form input::placeholder {
     font-size: .9rem;
 }
 
-form button {
+.button {
     position: absolute;
+    top: 0;
     right: 0;
     width: 22%;
     height: 100%;
@@ -93,13 +94,15 @@ form button {
     box-shadow: 0px 10px 25px hsl(0, 80%, 86%);
 }
 
-button img {
+.button img {
     position: absolute;
     display: inline-block;
-    transform: translate(-40%, -50%);
+    top: 50%;
+    right: 40%;
+    transform: translate(0, -50%);
 }
 
-button:hover {
+.button:hover {
     cursor: pointer;
     background: hsl(0, 100%, 90%);
 }
