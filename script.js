@@ -3,10 +3,6 @@ const errorMsg = document.querySelector('.error-msg');
 const btn = document.querySelector('button');
 const input = document.querySelector('input');
 
-console.log(errorIcon);
-console.log(errorMsg);
-console.log(btn);
-
 btn.addEventListener('click', (e) => {
 
     e.preventDefault();
