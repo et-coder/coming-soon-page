@@ -16,6 +16,7 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      padding: 10px 0;
     }
 
     .attribution a {
@@ -28,27 +29,34 @@
 
   <div class="container">
 
-    <img src="images/logo.svg" alt="Logo" class="logo">
+    <img src="images/logo.svg" alt="Logo" class="logo-mobile">
+
 
     <div class="flex">
 
-      <img src="images/hero-mobile.jpg" alt="A photo of a girl" class="hero-img">
+      <div class="hero-img"></div>
 
-      <div class="coming-soon">
 
-        <h1 class="hero-text"><span>We're</span> coming soon</h1>
+      <div class="hero-content">
+        <div class="content">
+          <img src="images/logo.svg" alt="Logo" class="logo-desktop">
+          <div class="coming-soon">
+            <h1 class="hero-text"><span>We're</span> coming soon</h1>
 
-        <p class="description">Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+            <p class="description">Hello fellow shoppers! We're currently building our new fashion store.
+              Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
-        <form>
-          <div class="input">
-            <input type="email" name="email" id="email" placeholder="Email Address">
-            <button type="submit"><img src="images/icon-arrow.svg" alt=""></button>
-            <img src="images/icon-error.svg" alt="" class="error-icon hidden">
+            <form>
+              <div class="input">
+                <input type="email" name="email" id="email" placeholder="Email Address">
+                <button type="submit"><img src="images/icon-arrow.svg" alt=""></button>
+                <img src="images/icon-error.svg" alt="" class="error-icon hidden">
+              </div>
+              <p class="error-msg hidden">Please provide a valid email</p>
+            </form>
           </div>
-          <p class="error-msg hidden">Please provide a valid email</p>
-        </form>
+        </div>
+
       </div>
     </div>
 
@@ -57,7 +65,7 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Natnael Dejene</a>.
     </p>
   </footer>
 </body>
